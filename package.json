@@ -1,7 +1,7 @@
 {
   "name": "part3",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple TypeScript and webpack template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,8 @@
     "build": "webpack",
     "start": "webpack serve --open chrome.exe"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["TypeScript", "webpack"],
+  "author": "zs",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.9",
