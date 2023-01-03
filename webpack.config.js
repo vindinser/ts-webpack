@@ -13,6 +13,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // 指定打包目录
     filename: "bundle.js" // 打包后文件的文件名
   },
+  // 设置mode
+  mode: 'development',
   // 指定webpack打包时要使用的模块
   module: {
     rules: [
