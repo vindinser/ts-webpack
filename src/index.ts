@@ -1,7 +1,9 @@
 import { hi } from "./m1"
 
-// import './class/index'
-import './Interface/index'
+// import './class/index' // class的基本使用
+// import './Interface/index' // interface的基本使用
+import './class/encapsulation' // 属性的封装
+
 function sum(a: number, b: number): number{
   return a + b
 }
