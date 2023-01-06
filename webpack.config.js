@@ -11,7 +11,10 @@ module.exports = {
   // 打包文件所在目录
   output: {
     path: path.resolve(__dirname, 'dist'), // 指定打包目录
-    filename: "bundle.js" // 打包后文件的文件名
+    filename: "bundle.js", // 打包后文件的文件名
+    environment: {
+      arrowFunction: false
+    } // 不使用箭头函数
   },
   // 设置mode
   mode: 'development',
