@@ -1,7 +1,7 @@
 import { hi } from "./m1"
 
-import './class/index'
-
+// import './class/index'
+import './Interface/index'
 function sum(a: number, b: number): number{
   return a + b
 }
